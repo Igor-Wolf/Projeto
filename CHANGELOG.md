@@ -8,7 +8,7 @@
 - Criada Funcionalidade de Alterar dados cadastrados do usuário logado
 - Criado um dataset de jogos teste para ilustrar a ideia do projeto
 - Criado um sistema de busca para pesquisar os jogos desejados resgatados do banco de dados
-- Criada uma tela de Sobre para decalrar o objetivo do site.
+- Criada uma tela de Sobre para ilustrar o objetivo do site.
   
 
 ## 🕷️ Bugs Reported
