@@ -1,4 +1,4 @@
-# Change Log v. 0.8
+# Change Log v. 0.8 (01/05/2024)
 
 ## 💡 Features Added
 
@@ -16,6 +16,7 @@
 - Funcionalidades de Lista de desejos e meus jogos ainda não foi implementada
 - Devido ao bootstrap nativo pode haver inconsistências de responsividade com os estilos próprios criados
 - Pode haver dimensões não totalmente responsivas para mobile
+- Devido as imagens não estarem hospedadas no mesmo dirtório do projeto pode haver uma demora para realizar o carregamento, sendo necessário até realizar a limpeza do cache ou mesmo recarregar a página.
 
 
 ## 🔧 Issues Fixeds
