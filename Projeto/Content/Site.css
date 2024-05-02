@@ -1,0 +1,316 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: gray;
+    
+    text-decoration:none;
+    box-sizing:border-box;
+
+}
+
+
+body {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+    padding-top: 50px;
+    
+    font-family:Arial;
+    background: #141414;
+    color: #c1bebe;
+    
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    font-size: 1.7rem;
+    
+}
+
+.render{
+
+    display:flex;
+    flex-direction: column;
+    
+    box-sizing:border-box;
+
+}
+
+.body-content{
+
+    margin:0 !important;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+
+    padding: .3rem;
+    background: #141414;
+}
+
+.navbar-brand{
+
+    color: #009900 !important;
+    font-weight:800;
+    font-size: 38px;
+    
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+footer{
+
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+footer p{
+
+    justify-content:center;
+    text-align: center;
+    text-wrap: normal;
+    margin-top: .5rem;
+    padding: 1rem;
+}
+
+
+
+/*----------------------------------------------------------------- Baner da página inicial */
+
+
+.j1 {
+
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 1)100%), url('https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/library_hero.jpg?t=1713255930');
+    height: 25vw;
+    background-size: cover;
+    max-width:100vw;
+}
+
+.j2 {
+
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .80)100%), url('https://cdn.cloudflare.steamstatic.com/steam/apps/990080/library_hero.jpg?t=1676412335');
+    height: 25vw;
+    background-size: cover;
+    max-width:100vw;
+}
+
+.j3 {
+
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .80)100%), url('https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_hero.jpg?t=1710259084');
+    height: 25vw;
+    background-size: cover;
+}
+
+.j4 {
+
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 1)100%), url('https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/library_hero.jpg?t=1711745059');
+    height: 25vw;
+    background-size: cover;
+}
+
+.jogo-principal {
+
+    font-size: 1.7rem;
+    /*  filtro para a capa */
+    height: 25vw;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing:border-box;
+
+}
+.caixa {
+
+    margin-left: 20px;
+    margin-right: 10px;
+
+    
+}
+
+
+
+.jogo-principal .caixa {
+
+    width: 60%;
+}
+
+.jogo-principal .descricao {
+
+    margin-bottom: 40px;
+    margin-top: 10px;
+
+}
+
+.carroselMaior{
+
+    display:flex;
+    width:100vw;
+    box-sizing:border-box;
+}
+
+.nomejogo {
+
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.box-jogo {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+.section1 {
+
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+    padding:.5rem;
+    box-sizing:border-box;
+}
+
+
+.carrossel-jogos {
+
+    
+    margin-top: 5px;
+    width:100vw;
+    
+    
+}
+
+
+
+
+.lancamentos {
+
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.divisor {
+    position: relative;
+    width: 100%;
+}
+
+.divisor::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: .5px;
+    background-color: #aaa;
+}
+
+.divisor2{
+    content: ".";
+    position: relative;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: .5px;
+    background-color: #aaa;
+
+}
+
+
+
+.realizarBusca {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom:1rem;
+    width:100vw;
+
+    
+}
+
+.textoChecar {
+
+    width: 100vw;
+    min-width: 250px;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: .8rem;
+    text-align: center;
+}
+
+.btnLogin{
+
+    background-color: #009900;
+    color:black;
+    width: 10rem;
+    font-weight:800;
+
+}
+.btnLogin:hover{
+
+    background-color: #006600;
+    color:white;
+
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+
+    .descricao {
+        width: 50%;
+    }
+
+    .jogo-principal {
+        height: 35vh;
+    }
+
+        .jogo-principal .caixa p {
+            display: none;
+        }
+
+    
+}
+
+

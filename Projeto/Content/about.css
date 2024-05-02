@@ -1,0 +1,91 @@
+﻿.exterior{
+    
+    padding: 4rem 25rem 4rem 25rem;
+    
+    
+}
+
+video{
+
+    width:90vw;
+    display:flex;
+    align-items: center;
+    max-width:800px;
+    
+}
+
+.containerVideo{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+p{
+    text-align:justify;
+}
+
+ul{
+     text-align:justify;
+}
+
+.menu li, .funcao li{
+    padding-bottom:1rem;
+    padding-top:1rem;
+}
+
+.fim{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fim p, fim h3{
+    text-align: center;
+    max-width:700px;
+}
+
+#lancamentos{
+
+    margin-bottom: 2rem;
+}
+
+.menu{
+
+    display:flex;
+    flex-direction:row;
+    column-gap: 2rem;    
+    list-style:none;
+    color: darkgray;
+    font-size: 2rem;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    
+
+    .exterior{
+
+        padding: 2rem;
+    }
+
+    .menu span{
+
+        display:none;
+    }
+
+    .menu{
+        font-size: 2.5rem;
+    }
+
+
+}
+

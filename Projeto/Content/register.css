@@ -1,0 +1,193 @@
+﻿body {
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #000000, #001000,  #003300);
+    height:100vh;
+    color: white;
+    padding:0;
+    margin:0;
+    
+}
+
+video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -2; /* Para garantir que o vídeo fique no fundo */
+        }
+
+
+.filtro{
+
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            background-color: black;
+            width: auto;
+            height: auto;
+            opacity:.8;
+            z-index: -1; /* Para garantir que o vídeo fique no fundo */
+
+
+
+}
+
+h2{
+
+    font-size: 5rem;
+    text-align: center;
+    color:#009900;
+    font-weight: 800;
+    opacity:1;
+    
+    
+}
+
+
+a{
+
+    color:#009900;
+}
+
+a:hover{
+
+    font-size: 1.6rem;
+    transition: ease-in-out;
+}
+
+h3{
+
+    color:#009900;
+    font-weight: 800;
+
+}
+
+.container hr{
+
+    display:none;
+}
+
+.navbar{
+
+    display:none
+}
+
+.externo{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 5rem;
+    padding: 2.5rem 4rem 2.5rem 4rem;
+    background-color: black;
+    opacity: .7;
+
+}
+
+.loginBtn{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btnLogin{
+
+    background-color: #009900;
+    color:black;
+    width: 10rem;
+    font-weight:800;
+
+}
+.btnLogin:hover{
+
+    background-color: #006600;
+    color:white;
+
+}
+
+.owl-carousel{
+
+    display:none !important;
+}
+
+.divisor2{
+
+    display: none !important;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+
+    .externo{
+
+        padding: 2rem;
+    }
+
+    .container{
+
+        padding:0;
+    }
+
+    .body-content{
+
+        padding:0;
+    }
+
+    
+
+
+
+}
+@media screen and (max-width:999px) {
+
+    .col-md-7{
+
+        padding:0;
+    }
+
+    .form-group{
+
+        all:unset;
+        
+    }
+
+    .col-md-5{
+
+        padding:0;
+    } 
+    
+
+}
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+
+    .lateral{
+
+        display:flex;
+            flex-direction: row
+    }
+
+    
+
+    
+}
